@@ -13,7 +13,12 @@
     <a-scene>
       <a-marker preset="hiro">
         <!--Adding a glTF 2.0 model to your scene-->
-        <a-entity gltf-model-next="src: url(Set_01.glb);"> </a-entity>
+        <a-entity
+          position="0 0 0"
+          scale="1"
+          gltf-model-next="src: url(Set_01.glb);"
+        >
+        </a-entity>
       </a-marker>
 
       <a-entity camera></a-entity>
